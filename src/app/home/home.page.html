@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Menu Prinicipal
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Menu Principal</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="schedule" routerLink="/contact">
+      <ion-icon name="person-add-outline"></ion-icon>
+      <ion-label>Registro</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="speakers" routerLink="/login">
+      <ion-icon name="person-circle"></ion-icon>
+      <ion-label>Login</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
+</ion-content>
